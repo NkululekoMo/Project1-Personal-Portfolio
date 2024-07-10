@@ -20,7 +20,7 @@
         "icon": "https://img.icons8.com/color/2x/typescript.png"
     },
     {
-        "name":"Spring Boot",
+        "name":"Spring/Springboot",
         "icon": "https://img.icons8.com/color/2x/spring-logo.png"
     },
     
@@ -67,6 +67,10 @@
     {
         "name": "Docker",
         "icon": "https://img.icons8.com/color/2x/docker.png"
+    },
+    {
+        "": "Kubernetes",
+        "icon", "https://img.icons8.com/?size=48&id=cvzmaEA4kC0o&format=png"
     },
     {
         "name": "Jenkins",
