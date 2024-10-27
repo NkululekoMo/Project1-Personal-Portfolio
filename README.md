@@ -2,7 +2,7 @@ Personal Portfolio Website
 
 Project Description
 
-This is a personal portfolio website built to showcase my skills, experience, and projects. The website is created using HTML, CSS, and JavaScript, with Google Fonts integrated to enhance the design and readability. It serves as a professional online presence, presenting a clean and user-friendly interface that highlights my background and accomplishments.
+This is a personal portfolio website built to showcase my skills, experience, and contacts. The website is created using HTML, CSS, and JavaScript, with Google Fonts integrated to enhance the design and readability. It serves as a professional online presence, presenting a clean and user-friendly interface that highlights my background and accomplishments.
 
 Features
 
