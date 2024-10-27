@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Full-Stack-Web developer","Full-Stack-Java Developer", "IT Support Technician"],
+        strings: ["Full-Stack-Web developer","Java Developer", "Web Developer"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
@@ -113,34 +113,34 @@ const srtop = ScrollReveal({
 
 
 
-async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
-        response = await fetch("./projects/projects.json")
-    const data = await response.json();
-    return data;
-}
+// async function fetchData(type = "skills") {
+//     let response
+//     type === "skills" ?
+//         response = await fetch("skills.json")
+//         :
+//         response = await fetch("./projects/projects.json")
+//     const data = await response.json();
+//     return data;
+// }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
-    });
-    skillsContainer.innerHTML = skillHTML;
-}
+// function showSkills(skills) {
+//     let skillsContainer = document.getElementById("skillsContainer");
+//     let skillHTML = "";
+//     skills.forEach(skill => {
+//         skillHTML += `
+//         <div class="bar">
+//               <div class="info">
+//                 <img src=${skill.icon} alt="skill" />
+//                 <span>${skill.name}</span>
+//               </div>
+//             </div>`
+//     });
+//     skillsContainer.innerHTML = skillHTML;
+// }
 
-fetchData().then(data => {
-    showSkills(data);
-});
+// fetchData().then(data => {
+//     showSkills(data);
+// });
 
 /* SCROLL HOME */
 srtop.reveal('.home .content h3',{delay: 200}); 
@@ -162,13 +162,6 @@ srtop.reveal('.about .content .tag',{delay: 400});
 srtop.reveal('.about .content p',{delay: 300}); 
 srtop.reveal('.about .content .box-container',{delay: 300}); 
 srtop.reveal('.about .content .resumebtn',{delay: 300}); 
-
-
-/* SCROLL EDUCATION */
-srtop.reveal('.education .box',{interval: 200}); 
-
-/* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline',{delay: 400});
